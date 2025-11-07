@@ -73,7 +73,7 @@ body {
 
 .signup__field {
   position: relative;
-  margin-bottom: 16px;
+
 }
 
 .signup__label {
@@ -106,11 +106,11 @@ body {
 .signup__error-icon {
   display: none;
   position: absolute;
-  top: 40%;
-  right: 32px;
+  top: 27%;
+  right: 20px;
   transform: translateY(-50%);
-  width: 20px;
-  height: 20px;
+  width: 24px;
+  height: 24px;
 }
 
 .signup__field--error .signup__input {
