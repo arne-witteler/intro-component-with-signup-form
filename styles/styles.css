@@ -71,6 +71,11 @@ body {
   box-shadow: 0 8px 0 rgba(0, 0, 0, 0.15);
 }
 
+.signup__field {
+  position: relative;
+  margin-bottom: 16px;
+}
+
 .signup__label {
   display: none;
 }
@@ -83,6 +88,7 @@ body {
   color: var(--color-gray-900);
   font-weight: var(--font-weight-regular);
   margin-bottom: 16px;
+  width: 100%;
 }
 
 .signup__error {
@@ -95,6 +101,25 @@ body {
   text-align: right;
   margin-top: -10px;
   margin-bottom: 24px;
+}
+
+.signup__error-icon {
+  display: none;
+  position: absolute;
+  top: 40%;
+  right: 32px;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+}
+
+.signup__field--error .signup__input {
+  border-color: var(--color-red-400);
+}
+
+.signup__field--error .signup__error-icon,
+.signup__field--error .signup__error {
+  display: block;
 }
 
 .signup__submit {
