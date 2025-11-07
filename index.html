@@ -22,15 +22,19 @@
           <form class="signup__form">
             <label class="signup__label" for="first-name">First Name</label>
             <input class="signup__input" type="text" id="first-name" name="first-name" placeholder="First Name" required>
+            <p class="signup__error" id="first-name-error">First Name cannot be empty</p>
 
             <label class="signup__label" for="last-name">Last Name</label>
             <input class="signup__input" type="text" id="last-name" name="last-name" placeholder="Last Name" required>
+            <p class="signup__error" id="last-name-error">Last Name cannot be empty</p>
 
             <label class="signup__label" for="email">Email Address</label>
             <input class="signup__input" type="email" id="email" name="email" placeholder="Email Address" required>
+            <p class="signup__error" id="email-error">Looks like this is not an email</p>
 
             <label class="signup__label" for="password">Password</label>
             <input class="signup__input" type="password" id="password" name="password" placeholder="Password" required>
+            <p class="signup__error" id="password-error">Password cannot be empty</p>
 
             <button class="signup__submit" type="submit">Claim your free trial</button>
 
