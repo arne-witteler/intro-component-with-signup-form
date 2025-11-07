@@ -9,28 +9,40 @@
     <script src="script.js" defer></script>
   </head>
   <body>
+    <main class="signup">
+      <section class="signup__info">
+        <div class="signup__text">
+          <h1 class="signup__title">Learn to code by watching others</h1>
+          <p class="signup__description">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
+        </div>
 
-  Learn to code by watching others
+        <div class="signup__box">
+          <p class="signup__trial">Try it free 7 days then $20/mo. thereafter</p>
+          <form class="signup__form">
+            <label class="signup__label" for="first-name">First Name</label>
+            <input class="signup__input" type="text" id="first-name" name="first-name" required>
 
-  See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
-  but understanding how developers think is invaluable. 
+            <label class="signup__label" for="last-name">Last Name</label>
+            <input class="signup__input" type="text" id="last-name" name="last-name" required>
 
-  Try it free 7 days then $20/mo. thereafter
+            <label class="signup__label" for="email">Email Address</label>
+            <input class="signup__input" type="email" id="email" name="email" required>
 
-  First Name 
-  Last Name 
-  Email Address
-  Password
+            <label class="signup__label" for="password">Password</label>
+            <input class="signup__input" type="password" id="password" name="password" required>
 
-  Claim your free trial 
+            <button class="signup__submit" type="submit">Claim your free trial</button>
 
-  By clicking the button, you are agreeing to our Terms and Services
-  
-  <footer>
-      <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="https://github.com/arne-witteler">Arne Witteler</a>.
+            <p class="signup__terms">By clicking the button, you are agreeing to our <a href="#">Terms and Services</a>
+            </p>
+
+          </form>
+        </div>
+      </section>
+
+      <footer>
+        <p class="attribution">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://github.com/arne-witteler">Arne Witteler</a>.
     </p>
-    </footer>
-  </body>
-</html>
+      </footer>
+    </body>
+  </html>
